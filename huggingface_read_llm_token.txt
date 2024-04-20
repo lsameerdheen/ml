@@ -1,0 +1,13 @@
+token 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
+
+download huggingface:
+huggingface-cli download meta-llama/Llama-2-7b-hf config.json  model-00001-of-00002.safetensors model-00002-of-00002.safetensors  --local-dir D:\workspace\ameersoftware\learning\mldatasets\hugfaces\models\Llama-2-7b-hf --cache-dir D:\workspace\ameersoftware\learning\mldatasets\hugfaces\tmpcache\Llama-2-7b-hf
+
+
+pip install transformers - GPU
+pip install ctransformers - cpu
+
+pip install accelartor - to accelarate loadiing
+pip install pytorch - support pyrtorch models
+!pip install datasets transformers[sentencepiece]
+!pip install sentencepiece
